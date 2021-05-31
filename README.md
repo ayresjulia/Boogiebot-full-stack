@@ -92,4 +92,3 @@ $npm test
 ## BoogieBot Event Planner App v2.0
 
 - delete event moodboard elements individually
-# Boogiebot-full-stack
