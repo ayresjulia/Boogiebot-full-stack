@@ -1,0 +1,72 @@
+.Events-body {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	text-align: center;
+	justify-content: space-evenly;
+	width: 100%;
+	border-left: 1px solid rgb(238, 238, 238);
+	height: auto;
+}
+
+.Events-create {
+	font-size: 1.5rem;
+	display: inline-block;
+	text-align: center;
+	margin-top: 40%;
+}
+
+.Events-new {
+	margin: 20px;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+	color: rgb(53, 52, 52);
+	background-color: rgba(37, 36, 216, 0.5);
+}
+
+.big-bold {
+	font-size: 80px;
+}
+
+.Events-current {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: space-evenly;
+	width: auto;
+	min-height: 600px;
+}
+
+.evt {
+	margin: 10px;
+	transition: all .2s ease-in-out;
+	color: rgb(53, 52, 52);
+	background-color: rgb(246, 249, 252) !important;
+	width: 250px;
+}
+
+.evt-img {
+	height: 200px;
+}
+
+.Events-new:hover,
+.evt:hover {
+	transform: scale(1.1);
+	-webkit-box-shadow: 0 20px 20px rgb(153, 154, 158);
+	-moz-box-shadow: 0 20px 20px rgb(153, 154, 158);
+	box-shadow: 0 20px 20px rgb(153, 154, 158);
+	color: rgb(53, 52, 52);
+}
+
+.link {
+	text-decoration: none;
+}
+
+.Events-rmrk {
+	margin-top: 20px;
+	text-align: center;
+}

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="SignupForm"
+  >
+    <form
+      class="Form-body"
+    >
+      <img
+        alt="user-profile"
+        class="Profile-url"
+        src="https://supersimple.com/wp-content/uploads/peek-a-boo-800-800-200x200.jpg"
+      />
+      <div
+        class="form-group"
+      >
+        <label
+          class=""
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          class="Form-input form-control"
+          id="username"
+          name="username"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          class=""
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          class="Form-input form-control"
+          id="password"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          class=""
+          for="firstName"
+        >
+          First Name
+        </label>
+        <input
+          class="Form-input form-control"
+          id="firstName"
+          name="firstName"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          class=""
+          for="lastName"
+        >
+          Last Name
+        </label>
+        <input
+          class="Form-input form-control"
+          id="lastName"
+          name="lastName"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          class=""
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          class="Form-input form-control"
+          id="email"
+          name="email"
+          required=""
+          type="email"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-success float-right btn btn-secondary"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

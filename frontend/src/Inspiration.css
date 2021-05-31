@@ -1,0 +1,82 @@
+.Inspiration-rounded {
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	transition: all .2s ease-in-out;
+}
+
+.Inspiration-rounded:hover {
+	transform: scale(1.1);
+	-webkit-box-shadow: 0 20px 20px rgb(153, 154, 158);
+	-moz-box-shadow: 0 20px 20px rgb(153, 154, 158);
+	box-shadow: 0 20px 20px rgb(153, 154, 158);
+}
+
+.Inspiration-form {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+.Inspiration-new {
+	color: rgb(53, 52, 52);
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	animation: 1.5s countAnim 1;
+	font-size: 1.5rem;
+}
+.bold {
+	font-size: 80px;
+	background-color: rgba(37, 36, 216, 0.5);
+}
+
+.Inspiration-p {
+	background-color: rgba(37, 36, 216, 0.5);
+}
+
+@keyframes countAnim {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(500px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+.small-text {
+	font-size: 15px;
+}
+
+.Inspiration-row {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.Inspiration-imgs {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	justify-content: space-evenly;
+	width: auto;
+}
+
+.Insp-btn {
+	background-color: rgba(37, 36, 216, 0) !important;
+	outline: 0 !important;
+}
+
+.Insp-btn:focus {
+	background-color: rgba(37, 36, 216, 0) !important;
+	box-shadow: none !important;
+	opacity: 0.5;
+}

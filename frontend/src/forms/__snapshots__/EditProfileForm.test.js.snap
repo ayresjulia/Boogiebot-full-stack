@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Form"
+  >
+    <div
+      class="Form-left"
+    >
+      <span
+        class="Form-update"
+      >
+        tip.
+      </span>
+      <p>
+        while updating your info, keep in mind, that picking a great playlist is key for any party!
+      </p>
+    </div>
+    <div
+      class="Form-right"
+    >
+      <img
+        alt="userprofilepicture"
+        class="Form-profile-pic"
+      />
+      <p>
+        <b>
+          testuser
+        </b>
+      </p>
+      <form
+        class="Form-body"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-6"
+          >
+            <div
+              class="form-group"
+            >
+              <label
+                class=""
+                for="firstName"
+              >
+                First Name
+              </label>
+              <input
+                class="Form-input form-control"
+                id="firstName"
+                name="firstName"
+                type="text"
+                value="testfirst"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6"
+          >
+            <div
+              class="form-group"
+            >
+              <label
+                class=""
+                for="lastName"
+              >
+                Last Name
+              </label>
+              <input
+                class="Form-input form-control"
+                id="lastName"
+                name="lastName"
+                type="text"
+                value="testlast"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            class=""
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="Form-input form-control"
+            id="email"
+            name="email"
+            type="text"
+            value="test@test.net"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            class=""
+            for="profileUrl"
+          >
+            Profile URL
+          </label>
+          <input
+            class="Form-input form-control"
+            id="profileUrl"
+            name="profileUrl"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            class=""
+            for="password"
+          >
+            Confirm password to make changes
+          </label>
+          <input
+            class="Form-input form-control"
+            id="password"
+            name="password"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          class="Form-btn btn-success btn btn-secondary"
+        >
+          Save
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

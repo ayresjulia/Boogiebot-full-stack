@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="Home"
+    >
+      <div
+        class="Home-body"
+      >
+        <p>
+          Please, Log in or Sign up to begin.
+        </p>
+      </div>
+      <div
+        class="Home-img"
+      >
+        <img
+          alt="homepage-img"
+          class="img1 img-fluid"
+          src="https://images.unsplash.com/photo-1620324446278-be6c7bb3ece5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          alt="homepage-img"
+          class="img2 img-fluid"
+          src="https://images.unsplash.com/photo-1527275393322-8ddae8bd5de9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          alt="homepage-img"
+          class="img3 img-fluid"
+          src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          alt="homepage-img"
+          class="img4 img-fluid"
+          src="https://images.unsplash.com/photo-1534119238569-839b7389d552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

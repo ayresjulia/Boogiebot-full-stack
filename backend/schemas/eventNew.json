@@ -1,0 +1,50 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://our.event.com/eventNew.schema.json",
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 100
+		},
+		"description": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 200
+		},
+		"eventDate": {
+			"type": "string"
+		},
+		"eventTime": {
+			"type": "string"
+		},
+		"city": {
+			"type": "string",
+			"maxLength": 50
+		},
+		"state": {
+			"type": "string"
+		},
+		"country": {
+			"type": "string"
+		},
+		"imgUrl": {
+			"type": "string"
+		},
+		"hostUsername": {
+			"type": "string"
+		}
+	},
+	"additionalProperties": false,
+	"required": [
+		"title",
+		"description",
+		"eventDate",
+		"eventTime",
+		"city",
+		"state",
+		"country",
+		"hostUsername"
+	]
+}

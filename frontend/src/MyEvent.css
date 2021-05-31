@@ -1,0 +1,54 @@
+.Event-card,
+.Cat-card {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0mm !important;
+	border: none !important;
+	background-color: white !important;
+}
+
+.mb-left {
+	margin-top: 20px;
+	margin-left: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	background-color: white;
+	min-height: 600px;
+}
+
+.mb-right {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.mb-insp {
+	padding: 10px;
+	background-color: white;
+}
+
+.mb-card-title {
+	font-size: 3rem;
+}
+
+.mb-catering-title {
+	margin-top: 30px;
+	font-size: 2rem;
+}
+
+.MyEvent-rmrk {
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+.icon {
+	color: rgb(53, 52, 52) !important;
+	font-size: 1rem;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.icon:hover {
+	color: rgba(37, 36, 216, 0.7) !important;
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="Navbar navbar navbar-expand-md navbar-light"
+    >
+      <a
+        class="Navbar-brand navbar-brand"
+        href="/"
+      >
+        BoogieBot
+      </a>
+      <button
+        aria-label="Toggle navigation"
+        class="Navbar-hamburger navbar-toggler"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="collapse navbar-collapse"
+      >
+        <ul
+          class="ml-auto navbar-nav"
+        >
+          <li
+            class="nav-item"
+          >
+            <a
+              class="navbar-link"
+              href="/login"
+            >
+              Log In
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="navbar-link"
+              href="/signup"
+            >
+              Sign Up
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;

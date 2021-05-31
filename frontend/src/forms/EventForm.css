@@ -1,0 +1,40 @@
+.EventForm {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 30% 50%;
+	text-align: center;
+	justify-content: space-evenly;
+	width: 100%;
+	border-left: 1px solid rgb(238, 238, 238);
+	height: auto;
+}
+
+.EventForm-left {
+	margin: 15px;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+	color: rgb(53, 52, 52);
+	background-color: rgba(255, 87, 51, 0.5);
+	font-size: 1.5rem;
+	display: inline-block;
+	text-align: center;
+	margin-top: 30%;
+	margin-bottom: 200px;
+}
+
+.EventForm-right {
+	margin-top: 10%;
+}
+
+.big-bold {
+	font-size: 80px;
+}
+
+.btn {
+	margin-top: 10px;
+	background-color: rgba(37, 36, 216, 0.5) !important;
+	border: none !important;
+	color: rgb(53, 52, 52) !important;
+}

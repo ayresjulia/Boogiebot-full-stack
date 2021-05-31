@@ -1,0 +1,20 @@
+.Navbar {
+	border: 1px solid rgb(238, 238, 238);
+	width: auto;
+}
+
+.Navbar-brand {
+	margin-left: 20px;
+}
+
+.navbar-link {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(53, 52, 52);
+}
+
+.navbar-link:hover {
+	color: rgba(37, 36, 216, 0.7) !important;
+}

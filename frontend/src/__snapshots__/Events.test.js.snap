@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Events"
+  >
+    <p
+      class="Events-rmrk"
+    >
+      <i>
+        your events will be shown here. click on event to get details or create a new one
+      </i>
+    </p>
+    <div
+      class="Events-body"
+    >
+      <div
+        class="Events-create"
+      >
+        <a
+          class="Events-new"
+          href="/events/new"
+        >
+          <span
+            class="big-bold"
+          >
+            create
+          </span>
+          <p>
+            <i>
+              new event.
+            </i>
+          </p>
+        </a>
+      </div>
+      <div
+        class="Events-current"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
