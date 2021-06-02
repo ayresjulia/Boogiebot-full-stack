@@ -9,6 +9,10 @@
 
 BoogieBot is created to help with event planning by being able to create user's own moodboard for a specific event, and search for nearby restaurants for catering options.
 
+## Link to try live on Surge
+
+[BoogieBot App](https://boogiebot-app.surge.sh)
+
 ## Features
 
 - login to create new events and modify them
