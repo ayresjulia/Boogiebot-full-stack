@@ -2,35 +2,7 @@ import { render } from "@testing-library/react";
 import React from "react";
 import EditEventForm from "./EditEventForm";
 import { useParams, MemoryRouter } from "react-router-dom";
-
-let testEvents = [
-	{
-		id: 1,
-		title: "Anniversary",
-		description: "Anniversary",
-		eventDate: "2021-05-19",
-		eventTime: "13:00",
-		city: "Minsk",
-		state: "CA",
-		country: "Belarus",
-		imgUrl:
-			"https://images.unsplash.com/photo-1532117182044-031e7cd916ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-		hostUsername: "testuser"
-	},
-	{
-		id: 2,
-		title: "Wedding",
-		description: "Wedding",
-		eventDate: "2021-05-19",
-		eventTime: "13:00",
-		city: "Minsk",
-		state: "CA",
-		country: "Belarus",
-		imgUrl:
-			"https://images.unsplash.com/photo-1532117182044-031e7cd916ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-		hostUsername: "testuser"
-	}
-];
+import { EventProvider } from "../helpers/testUtils";
 
 const userInfo = {
 	username: "testuser",
@@ -47,7 +19,9 @@ it("renders without crashing", async () => {
 	useParams.mockReturnValue({ id: 1 });
 	render(
 		<MemoryRouter>
-			<EditEventForm currentUser={userInfo} events={testEvents} />
+			<EventProvider>
+				<EditEventForm currentUser={userInfo} />
+			</EventProvider>
 		</MemoryRouter>
 	);
 });
@@ -56,7 +30,9 @@ it("matches snapshot", async () => {
 	useParams.mockReturnValue({ id: 1 });
 	const { asFragment } = render(
 		<MemoryRouter>
-			<EditEventForm currentUser={userInfo} events={testEvents} />
+			<EventProvider>
+				<EditEventForm currentUser={userInfo} />
+			</EventProvider>
 		</MemoryRouter>
 	);
 	expect(asFragment()).toMatchSnapshot();
@@ -66,7 +42,9 @@ it("renders a field in the form", async () => {
 	useParams.mockReturnValue({ id: 1 });
 	const { getByText } = render(
 		<MemoryRouter>
-			<EditEventForm currentUser={userInfo} events={testEvents} />
+			<EventProvider>
+				<EditEventForm currentUser={userInfo} />
+			</EventProvider>
 		</MemoryRouter>
 	);
 	expect(getByText("Edit Anniversary")).toBeInTheDocument();

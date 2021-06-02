@@ -2,8 +2,8 @@
 
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
-  <p>
+  <div>
     Loading...
-  </p>
+  </div>
 </DocumentFragment>
 `;

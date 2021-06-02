@@ -36,7 +36,80 @@ exports[`matches snapshot 1`] = `
       </div>
       <div
         class="Events-current"
-      />
+      >
+        <div>
+          <a
+            class="link"
+            href="/events/1"
+          >
+            <div
+              class="evt card"
+            >
+              <img
+                alt="Card image cap"
+                class="evt-img card-img-top"
+                src="https://images.unsplash.com/photo-1532117182044-031e7cd916ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                width="100%"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Anniversary
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div
+            id="1"
+          >
+            <button
+              class="btn btn-secondary"
+              type="button"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+        <div>
+          <a
+            class="link"
+            href="/events/2"
+          >
+            <div
+              class="evt card"
+            >
+              <img
+                alt="Card image cap"
+                class="evt-img card-img-top"
+                src="https://images.unsplash.com/photo-1532117182044-031e7cd916ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                width="100%"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Wedding
+                </h5>
+              </div>
+            </div>
+          </a>
+          <div
+            id="2"
+          >
+            <button
+              class="btn btn-secondary"
+              type="button"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
